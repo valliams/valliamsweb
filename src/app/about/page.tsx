@@ -36,7 +36,7 @@ export default function About() {
                 Founded in 2025, Valliams Corporation emerged from a vision to bridge the gap between innovative technology and business growth. As a fresh, dynamic software company, we focus on delivering high-quality solutions that help businesses thrive in the digital age.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Our passionate team combines expertise in modern technology and business strategy to provide three core services: custom software development using cutting-edge technologies, comprehensive HR solutions and staff augmentation, and dedicated 24/7 client support. We're here to grow alongside your business.
+                Our passionate team combines expertise in modern technology and business strategy to provide three core services: custom software development using cutting-edge technologies, comprehensive HR solutions and staff augmentation, and dedicated 24/7 client support. We&apos;re here to grow alongside your business.
               </p>
               <div className="flex items-center space-x-8">
                 <div className="text-center">
@@ -199,7 +199,7 @@ export default function About() {
             Ready to Start Your Project?
           </h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Let's work together to bring your ideas to life with modern technology solutions and dedicated support.
+            Let&apos;s work together to bring your ideas to life with modern technology solutions and dedicated support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

@@ -506,7 +506,7 @@ export default function MVPPage() {
             Ready to Build Your MVP?
           </h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Let's turn your idea into reality. Schedule a free consultation to discuss your project and get a custom quote.
+            Let&apos;s turn your idea into reality. Schedule a free consultation to discuss your project and get a custom quote.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a

@@ -70,7 +70,7 @@ export default function Contact() {
               Contact <span className="bg-gradient-to-r from-green-600 to-green-800 bg-clip-text text-transparent">Us</span>
             </h1>
             <p className="max-w-3xl mx-auto text-xl md:text-2xl text-gray-600 leading-relaxed">
-              Ready to start your project? Let's discuss how we can help bring your ideas to life
+              Ready to start your project? Let&apos;s discuss how we can help bring your ideas to life
             </p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Contact() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Information */}
             <div>
-              <h2 className="text-3xl font-bold text-gray-900">Let's Start Building</h2>
+              <h2 className="text-3xl font-bold text-gray-900">Let&apos;s Start Building</h2>
               <p className="mt-4 text-lg text-gray-600">
                 Ready to transform your ideas into reality? Get in touch with our team for a free consultation.
               </p>
@@ -172,7 +172,7 @@ export default function Contact() {
             <div className="bg-gradient-to-br from-white to-green-50 rounded-2xl p-8 border border-green-100 shadow-lg">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Start Your Project</h3>
-                <p className="text-gray-600">Tell us about your project and we'll get back to you within 24 hours.</p>
+                <p className="text-gray-600">Tell us about your project and we&apos;ll get back to you within 24 hours.</p>
               </div>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -275,7 +275,7 @@ export default function Contact() {
                     </div>
                     <div className="ml-3">
                       <p className="text-sm text-green-800">
-                        <strong>What happens next?</strong> We'll review your project and get back to you within 24 hours with a free consultation and project estimate.
+                        <strong>What happens next?</strong> We&apos;ll review your project and get back to you within 24 hours with a free consultation and project estimate.
                       </p>
                     </div>
                   </div>
@@ -290,7 +290,7 @@ export default function Contact() {
                       </svg>
                       <div>
                         <p className="text-green-800 font-medium">Message sent successfully!</p>
-                        <p className="text-green-700 text-sm">We'll get back to you within 24 hours. Check your email for confirmation.</p>
+                        <p className="text-green-700 text-sm">We&apos;ll get back to you within 24 hours. Check your email for confirmation.</p>
                       </div>
                     </div>
                   </div>
@@ -358,7 +358,7 @@ export default function Contact() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Quick Response</h3>
               <p className="text-gray-600">
-                We'll respond to your inquiry within 24 hours with initial feedback and next steps.
+                We&apos;ll respond to your inquiry within 24 hours with initial feedback and next steps.
               </p>
             </div>
 

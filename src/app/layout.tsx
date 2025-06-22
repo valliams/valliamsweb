@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import logo from '../assets/images/logo.png'
 import Image from "next/image";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -47,38 +48,38 @@ export default function RootLayout({
 
               {/* Desktop Navigation */}
               <div className="hidden lg:flex lg:items-center lg:space-x-1">
-                <a href="/" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
+                <Link href="/" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
                   <span className="relative z-10">Home</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-green-500/10 rounded-xl transition-all duration-300"></div>
-                </a>
-                <a href="/services" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
+                </Link>
+                <Link href="/services" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
                   <span className="relative z-10">Services</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-green-500/10 rounded-xl transition-all duration-300"></div>
-                </a>
-                <a href="/mvp" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
+                </Link>
+                <Link href="/mvp" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
                   <span className="relative z-10 flex items-center">
                     Quick MVP
                     <div className="ml-2 px-2 py-0.5 bg-red-100 text-red-700 text-xs font-bold rounded-full">HOT</div>
                   </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-green-500/10 rounded-xl transition-all duration-300"></div>
-                </a>
-                <a href="/about" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
+                </Link>
+                <Link href="/about" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
                   <span className="relative z-10">About</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-green-500/10 rounded-xl transition-all duration-300"></div>
-                </a>
-                <a href="/contact" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
+                </Link>
+                <Link href="/contact" className="group relative text-gray-700 hover:text-green-600 px-4 py-3 rounded-xl text-sm font-semibold transition-all duration-300 hover:bg-green-50">
                   <span className="relative z-10">Contact</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-500/0 to-green-500/0 group-hover:from-green-500/5 group-hover:to-green-500/10 rounded-xl transition-all duration-300"></div>
-                </a>
+                </Link>
                 
                 {/* CTA Button */}
                 <div className="ml-4">
-                  <a href="/mvp" className="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center">
+                  <Link href="/mvp" className="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-lg text-sm font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200 flex items-center">
                     <svg className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                     Get Started
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -122,21 +123,21 @@ export default function RootLayout({
 
               {/* Navigation Links */}
               <div className="flex-1 px-6 py-6 space-y-2">
-                <a href="/" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
+                <Link href="/" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
                   <svg className="h-5 w-5 mr-3 text-gray-400 group-hover:text-green-500 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
                   Home
-                </a>
+                </Link>
                 
-                <a href="/services" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
+                <Link href="/services" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
                   <svg className="h-5 w-5 mr-3 text-gray-400 group-hover:text-green-500 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h8z" />
                   </svg>
                   Services
-                </a>
+                </Link>
                 
-                <a href="/mvp" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
+                <Link href="/mvp" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
                   <svg className="h-5 w-5 mr-3 text-gray-400 group-hover:text-green-500 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                   </svg>
@@ -144,33 +145,33 @@ export default function RootLayout({
                     Quick MVP
                     <div className="ml-2 px-2 py-0.5 bg-red-100 text-red-600 text-xs font-bold rounded-full">HOT</div>
                   </span>
-                </a>
+                </Link>
                 
-                <a href="/about" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
+                <Link href="/about" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
                   <svg className="h-5 w-5 mr-3 text-gray-400 group-hover:text-green-500 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   About
-                </a>
+                </Link>
                 
-                <a href="/contact" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
+                <Link href="/contact" className="flex items-center text-gray-700 hover:text-green-600 hover:bg-green-50 px-4 py-4 rounded-xl text-base font-semibold transition-all duration-300 group">
                   <svg className="h-5 w-5 mr-3 text-gray-400 group-hover:text-green-500 transition-colors duration-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                   Contact
-                </a>
+                </Link>
               </div>
 
               {/* CTA Button & Contact Info */}
               <div className="p-6 border-t border-gray-100">
-                <a href="/mvp" className="block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-4 rounded-xl text-center font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 mb-4">
+                <Link href="/mvp" className="block bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white px-6 py-4 rounded-xl text-center font-semibold shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 mb-4">
                   <span className="flex items-center justify-center">
                     <svg className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
                     </svg>
                     Get Started Today
                   </span>
-                </a>
+                </Link>
                 
                 {/* Contact Info */}
                 <div className="text-center">

@@ -411,7 +411,7 @@ export default function Services() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-green-100 mb-10 max-w-2xl mx-auto">
-            Let's discuss your project and find the perfect technology solution for your business needs.
+            Let&apos;s discuss your project and find the perfect technology solution for your business needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

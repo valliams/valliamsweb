@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="bg-white">
@@ -366,7 +364,7 @@ export default function Home() {
             <span className="text-white">YOUR INDUSTRY?</span>
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-            Ready to transform your business with cutting-edge technology solutions? Let's build something amazing together.
+            Ready to transform your business with cutting-edge technology solutions? Let&apos;s build something amazing together.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <a
