@@ -27,7 +27,7 @@ export async function POST(request: NextRequest) {
     // Email content
     const mailOptions = {
       from: process.env.GMAIL_USER || 'your-email@gmail.com',
-      to: 'valliamscorporation@gmail.com',
+      to: 'valliamstechnologies@gmail.com',
       subject: `New Contact Form Submission from ${name}`,
       html: `
         <h2>New Contact Form Submission</h2>
@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
         <p>${message.replace(/\n/g, '<br>')}</p>
         
         <hr>
-        <p><small>This email was sent from the Valliams Corporation contact form.</small></p>
+        <p><small>This email was sent from the Valliams Technologies contact form.</small></p>
       `
     }
 
@@ -47,7 +47,7 @@ export async function POST(request: NextRequest) {
     const confirmationOptions = {
       from: process.env.GMAIL_USER || 'your-email@gmail.com',
       to: email,
-      subject: 'Thank you for contacting Valliams Corporation',
+      subject: 'Thank you for contacting Valliams Technologies',
       html: `
         <h2>Thank you for contacting us!</h2>
         <p>Dear ${name},</p>
@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
         <p>${message.replace(/\n/g, '<br>')}</p>
         
         <hr>
-        <p>Best regards,<br>Valliams Corporation Team</p>
+        <p>Best regards,<br>Valliams Technologies Team</p>
         <p><small>This is an automated confirmation email.</small></p>
       `
     }

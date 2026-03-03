@@ -33,7 +33,7 @@ export default function About() {
                 Our <span className="text-green-600">Journey</span>
               </h2>
               <p className="text-xl text-gray-600 mb-6 leading-relaxed">
-                Founded in 2025, Valliams Corporation emerged from a vision to bridge the gap between innovative technology and business growth. As a fresh, dynamic software company, we focus on delivering high-quality solutions that help businesses thrive in the digital age.
+                Founded in 2025, Valliams Technologies emerged from a vision to bridge the gap between innovative technology and business growth. As a fresh, dynamic software company, we focus on delivering high-quality solutions that help businesses thrive in the digital age.
               </p>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Our passionate team combines expertise in modern technology and business strategy to provide three core services: custom software development using cutting-edge technologies, comprehensive HR solutions and staff augmentation, and dedicated 24/7 client support. We&apos;re here to grow alongside your business.
@@ -77,7 +77,7 @@ export default function About() {
               Our Core <span className="text-green-600">Values</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              The principles that guide everything we do at Valliams Corporation
+              The principles that guide everything we do at Valliams Technologies
             </p>
           </div>
 
@@ -145,7 +145,7 @@ export default function About() {
               Leadership <span className="text-green-600">Team</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Meet the visionary leaders driving Valliams Corporation forward
+              Meet the visionary leaders driving Valliams Technologies forward
             </p>
           </div>
 

@@ -8,7 +8,7 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Valliams Corporation",
+  title: "Valliams Technologies",
   description: "Leading software company providing comprehensive HR services, client support, and custom project development across all technologies",
   icons: {
     icon: "/logo.png", // for default favicon
@@ -39,7 +39,7 @@ export default function RootLayout({
                   <div>
                     <span className="text-2xl font-black text-gray-900 tracking-tight">Valliams</span>
                     <div className="flex items-center -mt-1">
-                      <span className="text-sm text-green-600 font-bold tracking-wide">Corporation</span>
+                      <span className="text-sm text-green-600 font-bold tracking-wide">Technologies</span>
                       <div className="ml-2 px-2 py-0.5 bg-green-100 text-green-700 text-xs font-bold rounded-full">2025</div>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ export default function RootLayout({
                   <div>
                     <span className="text-lg font-black text-gray-900">Valliams</span>
                     <div className="flex items-center -mt-1">
-                      <span className="text-xs text-green-600 font-bold">Corporation</span>
+                      <span className="text-xs text-green-600 font-bold">Technologies</span>
                       <div className="ml-2 px-1.5 py-0.5 bg-green-100 text-green-700 text-xs font-bold rounded-full">2025</div>
                     </div>
                   </div>
@@ -236,7 +236,7 @@ export default function RootLayout({
                     <Image className="h-10 w-10" src={logo} alt="Logo" />
                   </div>
               <div>
-                    <span className="text-xl font-bold">Valliams Corporation</span>
+                    <span className="text-xl font-bold">Valliams Technologies</span>
                   </div>
                 </div>
                 <p className="text-gray-300 mb-4 max-w-md">
@@ -300,7 +300,7 @@ export default function RootLayout({
 
             <div className="mt-12 pt-8 border-t border-gray-700 text-center">
               <p className="text-gray-400">
-                &copy; 2024 Valliams Corporation. All rights reserved. | 
+                &copy; 2024 Valliams Technologies. All rights reserved. | 
                 <span className="text-green-400"> Empowering businesses through technology and talent.</span>
               </p>
             </div>

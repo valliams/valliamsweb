@@ -304,7 +304,7 @@ export default function Contact() {
                       </svg>
                       <div>
                         <p className="text-red-800 font-medium">Failed to send message</p>
-                        <p className="text-red-700 text-sm">Please try again or contact us directly at valliamscorporation@gmail.com</p>
+                        <p className="text-red-700 text-sm">Please try again or contact us directly at valliamstechnologies@gmail.com</p>
                       </div>
                     </div>
                   </div>
@@ -399,7 +399,7 @@ export default function Contact() {
               Ready to Build Something Great?
             </h3>
             <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-              Join the businesses that trust Valliams Corporation to bring their ideas to life with modern technology and dedicated support.
+              Join the businesses that trust Valliams Technologies to bring their ideas to life with modern technology and dedicated support.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
